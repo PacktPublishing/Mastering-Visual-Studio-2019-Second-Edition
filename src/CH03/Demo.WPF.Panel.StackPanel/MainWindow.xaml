@@ -1,0 +1,22 @@
+﻿<Window x:Class="Demo.WPF.Panel.StackPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Stack Panel Demo" Height="150" Width="300">
+    <StackPanel>
+        <!-- Horizontal StackPanel -->
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Stack 1"/>
+            <TextBlock Text="Stack 2"/>
+            <TextBlock Text="Stack 3"/>
+            <TextBlock Text="Stack 4"/>
+        </StackPanel>
+
+        <!-- Vertical StackPanel -->
+        <StackPanel Orientation="Vertical">
+            <TextBlock Text="Stack 1"/>
+            <TextBlock Text="Stack 2"/>
+            <TextBlock Text="Stack 3"/>
+            <TextBlock Text="Stack 4"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

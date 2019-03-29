@@ -1,0 +1,21 @@
+﻿<Window x:Class="Demo.WPF.Panel.WrapPanel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Wrap Panel Demo" Height="300" Width="460">
+    <WrapPanel Background="DarkOrange">
+        <Border Width="120" Height="50" 
+                Background="Yellow" Margin="4"/>
+        <Border Width="120" Height="50" 
+                Background="Yellow" Margin="4"/>
+        <Border Width="120" Height="50" 
+                Background="Yellow" Margin="4"/>
+        <Border Width="60" Height="50" 
+                Background="Yellow" Margin="4"/>
+        <Border Width="60" Height="50" 
+                Background="Yellow" Margin="4"/>
+        <Border Width="120" Height="50" 
+                Background="Yellow" Margin="4"/>
+        <Border Width="120" Height="50" 
+                Background="Yellow" Margin="4"/>
+    </WrapPanel>
+</Window>

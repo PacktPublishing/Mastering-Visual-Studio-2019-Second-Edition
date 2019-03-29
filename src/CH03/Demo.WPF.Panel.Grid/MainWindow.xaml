@@ -1,0 +1,32 @@
+﻿<Window x:Class="Demo.WPF.Panel.Grid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Grid Panel Demo" Height="150" Width="300">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>   <!-- auto layout based on content -->
+            <RowDefinition Height="Auto"/>   <!-- auto layout based on content -->
+            <RowDefinition Height="*"/>      <!-- take entire available space -->
+            <RowDefinition Height="30"/>     <!-- take only 30px height -->
+        </Grid.RowDefinitions>               
+        <Grid.ColumnDefinitions>             
+            <ColumnDefinition Width="Auto"/> <!-- auto layout based on content -->
+            <ColumnDefinition Width="20"/>   <!-- take only 20px width -->
+            <ColumnDefinition Width="*"/>    <!-- take entire available space -->
+        </Grid.ColumnDefinitions>
+
+        <!-- First Row -->
+        <TextBlock Text="First Name" Grid.Row="0" Grid.Column="0"/>
+        <TextBlock Text=":" Grid.Row="0" Grid.Column="1"/>
+        <TextBox Grid.Row="0" Grid.Column="2"/>
+
+        <!-- Second Row -->
+        <TextBlock Text="Last Name" Grid.Row="1" Grid.Column="0"/>
+        <TextBlock Text=":" Grid.Row="1" Grid.Column="1"/>
+        <TextBox Grid.Row="1" Grid.Column="2"/>
+
+        <!-- Third Row -->
+    </Grid>
+</Window>
+    
+    

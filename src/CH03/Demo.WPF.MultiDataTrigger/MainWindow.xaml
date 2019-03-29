@@ -1,0 +1,30 @@
+﻿<Window x:Class="Demo.WPF.MultiDataTrigger.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Multi Data Trigger Demo" Height="150" Width="400">
+    <StackPanel Orientation="Vertical" Margin="20">
+        <UniformGrid>
+            <CheckBox x:Name="chkOne" Content="Value 1"/>
+            <CheckBox x:Name="chkTwo" Content="Value 2"/>
+        </UniformGrid>
+        <TextBlock Text="Mastering Visual Studio 2019" FontSize="20">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Style.Triggers>
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding ElementName=chkOne, Path=IsChecked}" Value="True"/>
+                                <Condition Binding="{Binding ElementName=chkTwo, Path=IsChecked}" Value="True"/>
+                            </MultiDataTrigger.Conditions>
+                            <MultiDataTrigger.Setters>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="FontSize" Value="36"/>
+                                <Setter Property="Foreground" Value="Green"/>
+                            </MultiDataTrigger.Setters>
+                        </MultiDataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+    </StackPanel>
+</Window>
