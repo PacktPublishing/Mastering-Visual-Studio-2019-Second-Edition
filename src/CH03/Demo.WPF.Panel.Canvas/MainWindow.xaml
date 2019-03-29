@@ -1,0 +1,11 @@
+﻿<Window x:Class="Demo.WPF.Panel.Canvas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Canvas Panel Demo" Height="150" Width="300">
+    <Canvas>
+        <TextBlock Text="(75, 30)" 
+                Canvas.Left="75" Canvas.Top="30"/>
+        <TextBlock Text="(220, 75)" 
+                Canvas.Left="220" Canvas.Top="75"/>
+    </Canvas>
+</Window>

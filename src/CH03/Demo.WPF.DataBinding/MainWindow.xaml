@@ -1,0 +1,46 @@
+﻿<Window x:Class="Demo.WPF.DataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Name="mainWindow" Title="Data Binding Demo" 
+        Height="350" Width="700" FontSize="12">
+    <Grid DataContext="{Binding ElementName=mainWindow}" Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="26"/>
+            <RowDefinition Height="26"/>
+            <RowDefinition Height="26"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Author Name" Grid.Row="0" Grid.Column="0"/>
+        <TextBlock Text=":" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center"/>
+        <TextBox Text="{Binding AuthorName, Mode=OneWay}" Grid.Row="0" Grid.Column="2"/>
+        <TextBlock Text="(Mode=OneWay)" Grid.Row="0" Grid.Column="4"/>
+
+        <TextBlock Text="Book Name" Grid.Row="1" Grid.Column="0"/>
+        <TextBlock Text=":" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center"/>
+        <TextBox Text="{Binding BookName, Mode=TwoWay}" Grid.Row="1" Grid.Column="2"/>
+        <TextBlock Text="(Mode=TwoWay)" Grid.Row="1" Grid.Column="4"/>
+
+        <TextBlock Text="Published" Grid.Row="2" Grid.Column="0"/>
+        <TextBlock Text=":" Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center"/>
+        <TextBox Text="{Binding PublishDate, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="2"/>
+        <TextBlock Text="(Mode=TwoWay, UpdateSourceTrigger=PropertyChanged)" Grid.Row="2" Grid.Column="4"/>
+
+        <StackPanel Grid.Row="3" Grid.Column="2" Margin="0 20 0 0">
+            <TextBlock Text="You entered Author Name:" FontWeight="Bold"/>
+            <TextBlock Text="{Binding AuthorName}"/>
+            <TextBlock Text="You entered Book Name:" FontWeight="Bold" Margin="0 10 0 0"/>
+            <TextBlock Text="{Binding BookName}"/>
+            <TextBlock Text="You entered Published Date:" FontWeight="Bold" Margin="0 10 0 0"/>
+            <TextBlock Text="{Binding PublishDate}"/>
+        </StackPanel>
+    </Grid>
+</Window>
