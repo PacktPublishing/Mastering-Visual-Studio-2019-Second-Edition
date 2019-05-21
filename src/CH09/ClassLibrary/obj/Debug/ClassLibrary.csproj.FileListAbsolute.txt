@@ -1,0 +1,6 @@
+C:\Users\kunal\Source\Repos\Live Unit Testing Demo\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\kunal\Source\Repos\Live Unit Testing Demo\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\kunal\Source\Repos\Live Unit Testing Demo\ClassLibrary\obj\Debug\ClassLibrary.csprojAssemblyReference.cache
+C:\Users\kunal\Source\Repos\Live Unit Testing Demo\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\kunal\Source\Repos\Live Unit Testing Demo\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\kunal\Source\Repos\Live Unit Testing Demo\ClassLibrary\obj\Debug\ClassLibrary.pdb
