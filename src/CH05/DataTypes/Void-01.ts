@@ -1,0 +1,1 @@
+let stability: void = undefined;
