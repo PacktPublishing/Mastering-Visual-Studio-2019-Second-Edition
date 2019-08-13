@@ -1,6 +1,6 @@
 # Mastering Visual Studio 2019 - Second Edition 
 
-<a href="https://www.packtpub.com/programming/mastering-visual-studio-2019-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789530094"><img src="" alt="Mastering Visual Studio 2019 - Second Edition " height="256px" align="right"></a>
+<a href="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781789530094-original.jpeg"><img src="" alt="Mastering Visual Studio 2019 - Second Edition " height="256px" align="right"></a>
 
 This is the code repository for [Mastering Visual Studio 2019 - Second Edition ](https://www.packtpub.com/programming/mastering-visual-studio-2019-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789530094), published by Packt.
 
