@@ -1,6 +1,6 @@
 # Mastering Visual Studio 2019 - Second Edition 
 
-<a href="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781789530094-original.jpeg"><img src="" alt="Mastering Visual Studio 2019 - Second Edition " height="256px" align="right"></a>
+<a href="https://www.packtpub.com/programming/mastering-visual-studio-2019-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789530094"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781789530094-original.jpeg" alt="Mastering Visual Studio 2019 - Second Edition " height="256px" align="right"></a>
 
 This is the code repository for [Mastering Visual Studio 2019 - Second Edition ](https://www.packtpub.com/programming/mastering-visual-studio-2019-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789530094), published by Packt.
 
@@ -16,8 +16,6 @@ This book covers the following exciting features:
 * Build stunning applications using WPF, .NET Core, and TypeScript 
 * Explore NuGet packages in depth 
 * Accelerate cloud development with Azure 
-Debug and test your applications efficiently 
-Get to grips with integrating Visual Studio with Git repositories
 
 If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1789530091) today!
 
@@ -45,18 +43,9 @@ With the following software and hardware list you can run all code files present
 ### Software and Hardware List
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| All | Microsoft Visual Studio 2019 (Professional or Community Edition) | macOS, Linux, and Windows |
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it]().
+We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781789530094_ColorImages.pdf).
 
 ### Related products
 * Hands-On Domain-Driven Design with .NET Core  [[Packt]](https://www.packtpub.com/application-development/hands-domain-driven-design-net-core?utm_source=github&utm_medium=repository&utm_campaign=9781788834094) [[Amazon]](https://www.amazon.com/dp/B07C5WSR9B)
