@@ -56,7 +56,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 **Kunal Chowdhury**
 is an author, a passionate blogger, and a software engineer by profession. He was a Microsoft MVP from 2010 to 2018. Over the years, he has acquired profound knowledge of various Microsoft products and services, and has helped developers and consumers throughout the world.
 
-As a tech buff, Kunal has in-depth knowledge of C#, XAML, .NET, WPF, Visual Studio, Windows 10, and Azure. He has written many articles on his technical blog (www.kunal-chowdhury.com) for developers and consumers. You can contact him on Twitter (@kunal2383) and become one of his fans.
+As a tech buff, Kunal has in-depth knowledge of C#, XAML, .NET, WPF, Visual Studio, Windows 10, and Azure. He has written many articles on his technical blog (www.kunal-chowdhury.com) for developers and consumers. You can contact him on Twitter (@kunaldchowdhury) and become one of his fans.
 
 He has also authored the books Mastering Visual Studio 2017 and Windows Presentation Foundation Development Cookbook, both available from Packt Publishing.
 
