@@ -1,7 +1,3 @@
-## [Get this title for $10 on Packt's Spring Sale](https://www.packt.com/V13753?utm_source=github&utm_medium=packt-github-repo&utm_campaign=spring_10_dollar_2022)
------
-For a limited period, all eBooks and Videos are only $10. All the practical content you need \- by developers, for developers
-
 # Mastering Visual Studio 2019 - Second Edition 
 
 <a href="https://www.packtpub.com/programming/mastering-visual-studio-2019-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789530094"><img src="https://www.packtpub.com/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/9/7/9781789530094-original.jpeg" alt="Mastering Visual Studio 2019 - Second Edition " height="256px" align="right"></a>
